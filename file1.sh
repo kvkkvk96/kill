@@ -1,5 +1,4 @@
 #!/bin/bash
 
-ls -la #list all files
-cd repos/
-cd notes/
+userid={id -u}
+echo "user id is: $userid"
