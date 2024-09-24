@@ -8,4 +8,4 @@ DIF=$(($NUMBER1/$NUMBER2))
 TOTAL=$(($SUM+$DIF))
 
 echo "the total of the given two numbers are: $SUM"
-echo "the total of $SUM and $DIF is: $TOTAL"
+echo "the total of the $SUM and the total of the $DIF of the given two numbers is: $TOTAL"
