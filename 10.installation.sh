@@ -7,7 +7,6 @@ if [$USERID -ne 0]
 then {
      echo "please execute the script with root previleages"
      exit1
-fi
 }
 
 dnf list installed git
