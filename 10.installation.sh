@@ -3,18 +3,18 @@
 USERID=$(id -u)
 #make sure that the sript executing with root previleages.
 
-if [ $USERID -ne 0]
+if [ $USERID -ne 0 ]
 then 
      echo "please execute the script with root previleages"
      exit1
 fi
 
 dnf list installed git
-if [$? -ne 0]
+if [ $? -ne 0 ]
 then 
       echo "git is not installed... please install it"
       dnf install git
-    if [$? -ne 0]
+    if [$? -ne 0 ]
 then 
     echo "git installation failed....please check"
     exit1
