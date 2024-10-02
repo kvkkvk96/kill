@@ -26,5 +26,4 @@ then {
 }
 else {
     echo "git is already installed"
-fi
 }
