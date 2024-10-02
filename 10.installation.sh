@@ -3,7 +3,7 @@
 USERID=$(id -u)
 #make sure that the sript executing with root previleages.
 
-if [$USERID -ne 0]
+if [ $USERID -ne 0]
 then 
      echo "please execute the script with root previleages"
      exit1
